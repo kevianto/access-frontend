@@ -26,7 +26,7 @@ const OnboardingWizard = ({ onComplete }) => {
             type="text"
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-            className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-2xl font-bold focus:border-indigo-500 focus:outline-none transition-all"
+            className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
             placeholder="e.g. Jane Doe"
           />
         </div>
@@ -46,7 +46,7 @@ const OnboardingWizard = ({ onComplete }) => {
               type="email"
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-xl font-bold focus:border-indigo-500 focus:outline-none transition-all"
+              className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
               placeholder="jane@example.com"
             />
           </div>
@@ -57,7 +57,7 @@ const OnboardingWizard = ({ onComplete }) => {
               type="tel"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-              className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-xl font-bold focus:border-indigo-500 focus:outline-none transition-all"
+              className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
               placeholder="+254..."
             />
           </div>
@@ -113,7 +113,7 @@ const OnboardingWizard = ({ onComplete }) => {
             type="text"
             value={formData.location}
             onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-            className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-2xl font-bold focus:border-indigo-500 focus:outline-none transition-all"
+            className="w-full p-6 bg-slate-50 border-4 border-slate-100 rounded-3xl text-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
             placeholder="e.g. Nairobi, Kenya"
           />
         </div>

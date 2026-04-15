@@ -79,7 +79,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
                 type="text"
                 value={profile.name}
                 onChange={(e) => setProfile({ ...profile, name: e.target.value })}
-                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
               />
             </div>
 
@@ -91,7 +91,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
                   type="email"
                   value={profile.email}
                   onChange={(e) => setProfile({ ...profile, email: e.target.value })}
-                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
                 />
               </div>
             </div>
@@ -104,7 +104,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
                   type="tel"
                   value={profile.phone}
                   onChange={(e) => setProfile({ ...profile, phone: e.target.value })}
-                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
                 />
               </div>
             </div>
@@ -126,7 +126,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
                   type="text"
                   value={profile.location}
                   onChange={(e) => setProfile({ ...profile, location: e.target.value })}
-                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                  className="w-full pl-12 pr-5 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
                 />
               </div>
             </div>
@@ -136,7 +136,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
               <select
                 value={profile.disabilityType}
                 onChange={(e) => setProfile({ ...profile, disabilityType: e.target.value })}
-                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all appearance-none"
+                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all appearance-none"
               >
                 <option value="mobility">Mobility Impairment</option>
                 <option value="visual">Visual Impairment</option>
@@ -151,7 +151,7 @@ const ProfileSettings = ({ deviceId, onProfileUpdate }) => {
                 value={profile.skills}
                 onChange={(e) => setProfile({ ...profile, skills: e.target.value })}
                 rows="2"
-                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all resize-none"
+                className="w-full p-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all resize-none"
                 placeholder="e.g. Graphic design, writing, data entry..."
               />
             </div>

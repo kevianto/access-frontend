@@ -87,7 +87,7 @@ const TransportBooking = ({ deviceId, userProfile }) => {
                     value={pickup}
                     onChange={(e) => setPickup(e.target.value)}
                     placeholder="Where are you now?"
-                    className="w-full pl-14 pr-6 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                    className="w-full pl-14 pr-6 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
                     required
                   />
                 </div>
@@ -102,7 +102,7 @@ const TransportBooking = ({ deviceId, userProfile }) => {
                     value={destination}
                     onChange={(e) => setDestination(e.target.value)}
                     placeholder="Where are you going?"
-                    className="w-full pl-14 pr-6 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-800 focus:border-indigo-500 focus:outline-none transition-all"
+                    className="w-full pl-14 pr-6 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none transition-all"
                     required
                   />
                 </div>

@@ -27,7 +27,7 @@ const CommandInput = ({ onCommand, loading }) => {
           onChange={(e) => setCommand(e.target.value)}
           placeholder="What would you like me to do?"
           disabled={loading}
-          className="flex-1 bg-transparent border-none text-lg text-slate-900 placeholder-slate-400 focus:ring-0 focus:outline-none py-3"
+          className="flex-1 bg-transparent border-none text-lg text-slate-900 placeholder:text-slate-400 focus:ring-0 focus:outline-none py-3"
         />
 
         <button
