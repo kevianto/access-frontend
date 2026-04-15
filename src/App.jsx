@@ -34,7 +34,7 @@ function App() {
   const [confirmationMessage, setConfirmationMessage] = useState('');
   const { speak } = useSpeech();
 
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://3sxl7nrx-3000.inc1.devtunnels.ms';
 
   const [deviceId] = useState(() => {
     const savedId = localStorage.getItem('access_device_id');

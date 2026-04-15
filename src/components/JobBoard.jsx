@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Briefcase, MapPin, CheckCircle2, ChevronRight, Filter, Info, Send } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://3sxl7nrx-3000.inc1.devtunnels.ms';
 
 const JobBoard = ({ deviceId, userProfile }) => {
   const [jobs, setJobs] = useState([]);
